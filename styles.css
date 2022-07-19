@@ -1,0 +1,23 @@
+.display-flex {
+  border: 3px dashed #000;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; */
+  /* flex-direction: column; */
+  /* justify-content: start ;
+  align-items: start;
+  align-content: end;
+  flex-wrap: wrap; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.display-flex div {
+  background-color: #f44;
+  font-size: 40px;
+}
